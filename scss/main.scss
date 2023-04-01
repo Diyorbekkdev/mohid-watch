@@ -1,0 +1,119 @@
+// IMPORTING SCSS PARTS
+@import 'blocks/dark-mode/_dark-light';
+@import 'blocks/navbar-shrink/_navbar-shrink';
+@import 'blocks/humburger/_humburger';
+@import 'blocks/header/_header';
+@import 'blocks/main-section/_hero';
+@import 'blocks/brands/_brands';
+@import 'blocks/products/_products';
+@import 'blocks/about-us/_about';
+@import 'blocks/contact/_contact';
+@import 'blocks/footer/_footer';
+
+
+:root
+{
+    --bg-color: linear-gradient(155.28deg, #383638 2.06%, #0B0B0B 33.08%);
+    --btn-color: #3858D6;
+    --primary--text-color: #1E1D1D;
+    --secondary-text-color: #8B8E99;
+    --card-bg-color: #F6F6F6;
+    --container-width: 1102px;
+
+
+    --bg-black-900:#f2f2fc;
+    --bg-black-100:#fdf9ff;
+    --bg-black-50:#e8dfec;
+    --text-black-900:#302e4d;
+    --text-black-700:#504e70;
+}
+
+body.dark{
+    --bg-color: linear-gradient(155.28deg, #383638 2.06%, #0B0B0B 33.08%);
+    --primary--text-color: #1E1D1D;
+    --secondary-text-color: #8B8E99;
+    --card-bg-color: #F6F6F6;
+    --container-width: 1102px;
+
+
+    --bg-black-900:#151515;
+    --bg-black-100:#222222;
+    --bg-black-50:#393939;
+    --text-black-900:#ffffff;
+    --text-black-700:#e9e9e9;
+}
+
+
+body.dark body{
+    background: #121212;
+}
+
+
+
+
+// VARIABLES 
+// $bg-color: linear-gradient(155.28deg, #383638 2.06%, #0B0B0B 33.08%);
+// $btn-color: #3858D6;
+// $primary--text-color: #1E1D1D;
+// $secondary-text-color: #8B8E99;
+// $card-bg-color: #F6F6F6;
+// $container-width: 1102px;
+
+
+
+.container{
+    max-width: var(--container-width);
+    margin: 0 auto;
+}
+
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header_title{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 125.5%;
+    color: #ffff;
+}
+
+body.dark .header_title{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 125.5%;
+    color: var(--skin-color);
+}
+
+
+.header_text_style{
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125.5%;
+    color: #8B8E99;
+    // color: var(--skin-color);
+}
+
+.titel_text_style{
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #1E1D1D;
+}
+
+.info_text_style{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #8B8E99;
+}

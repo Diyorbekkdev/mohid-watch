@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- js link -->
+   
+
+    <!-- FONT'S LINKS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <!-- FONT'S LINKS -->
+    <title>Mohid</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+    integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/skin/color-1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!--====Style switcher===-->
+    <link rel="stylesheet" href="scss/blocks/skin/color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="scss/blocks/skin/color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="scss/blocks/skin/color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="scss/blocks/skin/color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="scss/blocks/skin/color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="scss/blocks/skin/style-switcher.css">
+    <link rel="icon" type="image/x-icon" href="assets/icons/logo.svg">
+    <!-- STYLE CSS LINKS -->
+    <link rel="stylesheet" href="scss/main.css">
+    <!-- STYLE CSS LINKS -->
+</head>
+<body>
+
+<!-- HUMBURGER START -->
+<nav class="navbar" id="nav">
+    <div class="navbar-container container">
+        <input type="checkbox" name="" id="">
+        <div class="hamburger-lines">
+            <span class="line line1"></span>
+            <span class="line line2"></span>
+            <span class="line line3"></span>
+        </div>
+        <ul class="menu-items">
+            <li><a class="header_text_style" href="#home">Home</a></li>
+            <li><a class="header_text_style" href="#brands">Brands<img src="assets/icons/chevron-down.svg" alt=""></a></li>
+            <li><a class="header_text_style" href="#products">Recent Products</a></li>
+            <li><a class="header_text_style" href="#contact">Contact</a></li>
+            <li><a class="header_text_style" href="#about">About</a></li>
+        </ul>
+        <h1 class="logo"><img src="assets/icons/logo.svg" alt=""></h1>
+    </div>
+</nav>
+<!-- HUMBURGER END -->
+
+
+
+
+    <!-- HEADER START -->
+    <header class="header" id="navbar" >
+        <div class="container">
+            <nav class="header_navigation">
+                <img src="assets/icons/logo.svg" alt="logo" class="header_logo">
+                <ul class="header_nav_list ">
+                    <li><a class="header_text_style" href="#">Home</a></li>
+                    <li><a class="header_text_style" href="#">Brands<img src="assets/icons/chevron-down.svg" alt=""></a></li>
+                    <li><a class="header_text_style" href="#">Recent Products</a></li>
+                    <li><a class="header_text_style" href="#">Contact</a></li>
+                    <li><a class="header_text_style" href="#">About</a></li>
+                </ul>
+                <div class="header_right_icons">
+                    <a href="#"><img src="assets/icons/Search.svg" alt="Search"></a>
+                    <a href="#"><img src="assets/icons/Person.svg" alt="Search"></a>
+                    <a href="#"><img src="assets/icons/shop.svg" alt="Search"></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- HEADER START -->
+
+
+
+
+
+
+
+
+
+    
+   <!-- MAIN SECTION START -->
+
+   <main>
+       <!-- HOME SECTION START -->
+       <section class="home" id="home">
+        <div class="container">
+            <div class="home_container">
+                <div class="home_left">
+                    <h1 class="header_title" id="title">Discover Most <span class="typing">Suitable</span>  Watches</h1>
+                    <p class="header_text_style">Find the best, reliable, and cheap smart watches here. We focus on product quality. Here you can find smart watches of almost all brands. So why you are waiting? Just order now!</p>
+                    <form>
+                        <input class="" type="text" placeholder="Find the best brands..." id="search-bar">
+                        <button type="submit" id="search-button">Search</button>
+                        <div id="search-suggestions">
+                            <ul>
+                              <li>Websahifada bor bo'lgan productni qidiring</li>
+                              <li>Websahifada bor bo'lgan productni qidiring</li>
+                              <li>Websahifada bor bo'lgan productni qidiring</li>
+                              <li>Websahifada bor bo'lgan productni qidiring</li>
+       
+                            </ul>
+                          </div>
+                        <svg class="home_search" xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 96 960 960" width="35"><path d="M796 935 533 672q-30 26-69.959 40.5T378 727q-108.162 0-183.081-75Q120 577 120 471t75-181q75-75 181.5-75t181 75Q632 365 632 471.15 632 514 618 554q-14 40-42 75l264 262-44 44ZM377 667q81.25 0 138.125-57.5T572 471q0-81-56.875-138.5T377 275q-82.083 0-139.542 57.5Q180 390 180 471t57.458 138.5Q294.917 667 377 667Z"/></svg>
+                      </form>
+                </div>
+                <div class="slider">
+                    <img src="assets/images/product1.svg" alt="Slide 1">
+                    <img src="assets/images/product2.svg" alt="Slide 1">
+                    <img src="assets/images/product3.svg" alt="Slide 1">
+                    <img src="assets/images/product4.svg" alt="Slide 1">
+                    <img src="assets/images/product5.svg" alt="Slide 1">
+                    <img src="assets/images/product6.svg" alt="Slide 1">
+                    <img src="assets/images/apple-watch.svg" alt="Slide 1">
+                    <img src="assets/images/fitbit-watch.svg" alt="Slide 1">
+                    <img src="assets/images/watch.svg" alt="Slide 1">
+                    <img src="assets/images/xiaoami-watch.svg" alt="Slide 1">
+       
+                    <button class="prev">&#10094;</button>
+                    <button class="next">&#10095;</button>
+                  </div>
+            </div>
+        </div>
+       </section>
+        <!-- HOME SECTION END -->
+       
+
+        <!-- BRAND SECTION START -->
+        <section id="brands" class="brands">
+         <div class="brands_container">
+             <div class="card">
+               <img src="assets/images/apple-watch.svg" alt="Image 1"  >
+               <div class="brands_info">
+                   <h2 class="titel_text_style">Apple</h2>
+                   <p class="info_text_style">Apple is one of the most famous smart watches providing company.</p>
+               </div>
+             </div>
+             <div class="card">
+               <img src="assets/images/fitbit-watch.svg" alt="Image 2">
+               <div class="brands_info">
+                   <h2 class="titel_text_style">Xiaomi</h2>
+                   <p class="info_text_style">Xiaomi smart watches are produced by MI company.</p>
+               </div>
+             </div>
+             <div class="card">
+               <img src="assets/images/xiaoami-watch.svg" alt="Image 3">
+               <div class="brands_info">
+                   <h2 class="titel_text_style">FitBit</h2>
+                   <p class="info_text_style">FitBit smart watches are best for there health and fitness features.</p>
+               </div>
+             </div>
+           </div>
+        </section>
+        <!-- BRAND SECTION END -->
+
+
+        <!-- PRODUCT SECTION START -->
+        <section class="product" id="product">
+            <div class="container">
+                <div class="product_heading">
+                    <a href="#">Find your favourite smart watch.</a>
+                    <h1 class="titel_text_style">Our Latest Products</h1>
+                </div>
+                <div class="product_container">
+                    <div class="card2">
+                        <div class="img_card">
+                            <div class="d_none">
+                                <div class="like">
+                                    <a href=""><img src="assets/icons/cart.png" alt=""></a>
+                                    <a href=""><img src="assets/icons/like.png" alt=""></a>
+                                </div>
+                            </div>
+                            <img class="img_hr" src="assets/images/product1.svg" alt="Image 1">
+                        </div>
+                        <h2>Apple Smart I</h2>
+                        <div class="rating">
+                            <span class="star" data-value="1">&#9733;</span>
+                            <span class="star" data-value="2">&#9733;</span>
+                            <span class="star" data-value="3">&#9733;</span>
+                            <span class="star" data-value="4">&#9733;</span>
+                            <span class="star" data-value="5">&#9733;</span>
+                          </div>
+                          
+                          <p class="info_text_style"><span class="cros">$300.00
+                        </span><span class="price">$255.00</span>
+                    </p>
+                      </div>
+                    <div class="card2">
+                        <div class="img_card">
+                            <div class="d_none">
+                                <div class="like">
+                                    <a href=""><img src="assets/icons/cart.png" alt=""></a>
+                                    <a href=""><img src="assets/icons/like.png" alt=""></a>
+                                </div>
+                            </div>
+                            <img src="assets/images/product2.svg" alt="Image 1">
+                        </div>
+                        <h2>Apple Smart I</h2>
+                        <div class="rating">
+                            <span class="star" data-value="1">&#9733;</span>
+                            <span class="star" data-value="2">&#9733;</span>
+                            <span class="star" data-value="3">&#9733;</span>
+                            <span class="star" data-value="4">&#9733;</span>
+                            <span class="star" data-value="5">&#9733;</span>
+                          </div>
+                          
+                          <p class="info_text_style"><span class="cros">$300.00
+                        </span><span class="price">$255.00</span>
+                    </p>
+                      </div>
+                    <div class="card2">
+                        <div class="img_card">
+                            <div class="d_none">
+                                <div class="like">
+                                    <a href=""><img src="assets/icons/cart.png" alt=""></a>
+                                    <a href=""><img src="assets/icons/like.png" alt=""></a>
+                                </div>
+                            </div>
+                            <img src="assets/images/product3.svg" alt="Image 1">
+                        </div>
+                        <h2>Apple Smart I</h2>
+                        <div class="rating">
+                            <span class="star" data-value="1">&#9733;</span>
+                            <span class="star" data-value="2">&#9733;</span>
+                            <span class="star" data-value="3">&#9733;</span>
+                            <span class="star" data-value="4">&#9733;</span>
+                            <span class="star" data-value="5">&#9733;</span>
+                          </div>
+                          
+                          <p class="info_text_style"><span class="cros">$300.00
+                        </span><span class="price">$255.00</span>
+                    </p>
+                      </div>
+                    <div class="card2">
+                        <div class="img_card">
+                            <div class="d_none">
+                                <div class="like">
+                                    <a href=""><img src="assets/icons/cart.png" alt=""></a>
+                                    <a href=""><img src="assets/icons/like.png" alt=""></a>
+                                </div>
+                            </div>
+                            <img src="assets/images/product4.svg" alt="Image 1">
+                        </div>
+                        <h2>Apple Smart I</h2>
+                        <div class="rating">
+                            <span class="star" data-value="1">&#9733;</span>
+                            <span class="star" data-value="2">&#9733;</span>
+                            <span class="star" data-value="3">&#9733;</span>
+                            <span class="star" data-value="4">&#9733;</span>
+                            <span class="star" data-value="5">&#9733;</span>
+                          </div>
+                          
+                          <p class="info_text_style"><span class="cros">$300.00
+                        </span><span class="price">$255.00</span>
+                    </p>
+                      </div>
+                    <div class="card2">
+                        <div class="img_card">
+                            <div class="d_none">
+                                <div class="like">
+                                    <a href=""><img src="assets/icons/cart.png" alt=""></a>
+                                    <a href=""><img src="assets/icons/like.png" alt=""></a>
+                                </div>
+                            </div>
+                            <img src="assets/images/product5.svg" alt="Image 1">
+                        </div>
+                        <h2>Apple Smart I</h2>
+                        <div class="rating">
+                            <span class="star" data-value="1">&#9733;</span>
+                            <span class="star" data-value="2">&#9733;</span>
+                            <span class="star" data-value="3">&#9733;</span>
+                            <span class="star" data-value="4">&#9733;</span>
+                            <span class="star" data-value="5">&#9733;</span>
+                          </div>
+                          
+                          <p class="info_text_style"><span class="cros">$300.00
+                        </span><span class="price">$255.00</span>
+                    </p>
+                      </div>
+                    <div class="card2">
+                        <div class="img_card">
+                            <div class="d_none">
+                                <div class="like">
+                                    <a href=""><img src="assets/icons/cart.png" alt=""></a>
+                                    <a href=""><img src="assets/icons/like.png" alt=""></a>
+                                </div>
+                            </div>
+                            <img src="assets/images/product6.svg" alt="Image 1">
+                        </div>
+                        <h2>Apple Smart I</h2>
+                        <div class="rating">
+                            <span class="star" data-value="1">&#9733;</span>
+                            <span class="star" data-value="2">&#9733;</span>
+                            <span class="star" data-value="3">&#9733;</span>
+                            <span class="star" data-value="4">&#9733;</span>
+                            <span class="star" data-value="5">&#9733;</span>
+                          </div>
+                          
+                          <p class="info_text_style"><span class="cros">$300.00
+                        </span><span class="price">$255.00</span>
+                    </p>
+                      </div>
+                      
+                    </div>
+                </div>
+            </section>
+            <!-- PRODUCT SECTION END -->
+            <div class="btn_w">
+                <div class="container"><a href="#" class="product_btn">View More</a></div>
+            </div>
+
+        <!-- ABOUT SECTION START -->
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about_heading">
+                    <a href="#">Here are our some of the best clients.</a>
+                    <h1 class="titel_text_style">What People Say About Us</h1>
+                </div> 
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="assets/images/person-2.png" alt="">
+                            <div class="swiper_info">
+                                <h1 class="titel_text_style">Hamza Faizi</h1>
+                                <p class="info_text_style">Don’t waste time, just order! This is the <br> best website to puschase smart watches.</p>
+                                <div class="rating">
+                                    <span class="star" data-value="1">&#9733;</span>
+                                    <span class="star" data-value="2">&#9733;</span>
+                                    <span class="star" data-value="3">&#9733;</span>
+                                    <span class="star" data-value="4">&#9733;</span>
+                                    <span class="star" data-value="5">&#9733;</span>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/person-3.png" alt="">
+                            <div class="swiper_info">
+                                <h1 class="titel_text_style">Hamza Faizi</h1>
+                                <p class="info_text_style">Don’t waste time, just order! This is the <br> best website to puschase smart watches.</p>
+                                <div class="rating">
+                                    <span class="star" data-value="1">&#9733;</span>
+                                    <span class="star" data-value="2">&#9733;</span>
+                                    <span class="star" data-value="3">&#9733;</span>
+                                    <span class="star" data-value="4">&#9733;</span>
+                                    <span class="star" data-value="5">&#9733;</span>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/person-2.png" alt="">
+                            <div class="swiper_info">
+                                <h1 class="titel_text_style">Hamza Faizi</h1>
+                                <p class="info_text_style">Don’t waste time, just order! This is the <br> best website to puschase smart watches.</p>
+                                <div class="rating">
+                                    <span class="star" data-value="1">&#9733;</span>
+                                    <span class="star" data-value="2">&#9733;</span>
+                                    <span class="star" data-value="3">&#9733;</span>
+                                    <span class="star" data-value="4">&#9733;</span>
+                                    <span class="star" data-value="5">&#9733;</span>
+                                  </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="assets/images/person-3.png" alt="">
+                            <div class="swiper_info">
+                                <h1 class="titel_text_style">Hamza Faizi</h1>
+                                <p class="info_text_style">Don’t waste time, just order! This is the <br> best website to puschase smart watches.</p>
+                                <div class="rating">
+                                    <span class="star" data-value="1">&#9733;</span>
+                                    <span class="star" data-value="2">&#9733;</span>
+                                    <span class="star" data-value="3">&#9733;</span>
+                                    <span class="star" data-value="4">&#9733;</span>
+                                    <span class="star" data-value="5">&#9733;</span>
+                                  </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                     
+
+                   
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                  </div>  
+            </div>
+        </section>
+        <!-- ABOUT SECTION END -->
+
+        <!-- CONTACT START -->
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="contact_subscribe">
+                    <div class="contact_left">
+                        <h1 class="titel_text_style">Subscribe To Newsletter</h1>
+                        <p class="info_text_style">Get free guide about smart watches daily. </p>
+                        <div class="subscribe-form">
+                            <form>
+                                <input type="email" id="email" name="email" placeholder="Enter Email Address" required>
+                                <button type="submit" id="subscribe-btn">Subscribe</button>
+                                <p id="email-error-msg">Please enter a valid email address.</p>
+                              </form>
+                          </div>
+                          
+                    </div>
+                    <img class="contact_img" src="assets/images/product1.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- CONTACT END -->
+   </main>
+   <!-- MAIN SECTION END -->
+
+
+        <!-- FOOTER START -->
+        <footer class="footer">
+            <div class="container">
+                <p class="footer_info">Copyright @ 2022 | Mohid</p>
+            </div>
+
+        </footer>
+        <!-- FOOTER END -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--===Style Switcher Start===-->
+ <div class="style-switcher">
+    <div class="style-switcher-toggler s-icon">
+        <i class="fas fa-cog fa-spin"></i>
+    </div>
+    <div class="day-night s-icon">
+        <i class="fas fa"></i>
+    </div>
+    <h4>Theme Colors</h4>
+    <div class="colors">
+        <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+        <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+        <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+        <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+        <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+    </div>
+</div>
+<!--===Style Switcher Start===-->
+
+
+
+<!-- SCRIPT LINK -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+></script>
+<script
+src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+crossorigin="anonymous"
+referrerpolicy="no-referrer"
+></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+<script src="js/main.js"></script>
+<script src="js/shrink.js"></script>
+<!-- SCRIPT LINK -->
+
+</body>
+</html>

@@ -1,0 +1,148 @@
+.contact{
+    padding-bottom: 106px;
+}
+
+.contact_subscribe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 62px;
+    align-items: center;
+    background: #F6F6F6;
+    border-radius: 22px;
+    justify-content: center;
+    
+}
+.contact_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 77px;
+    // padding: 30px
+    h1{
+        color: var(--skin-color);
+    }
+    p{
+        margin-top: 21px;
+        margin-bottom: 12px;
+    }
+}
+
+form{
+    position: relative;
+}
+
+.contact_img{
+    padding: 20px;
+    margin-left: 60px;
+}
+
+input[type=email]{
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 16px;
+    width: 100%;   
+}
+#subscribe-btn{
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    outline: none;
+    border: none;
+    background: var(--btn-color);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 8px;
+    transition: .3s ease-in;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125.5%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+body.dark #subscribe-btn{
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    outline: none;
+    border: none;
+    background: var(--skin-color);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 8px;
+    transition: .3s ease-in;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125.5%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+input[type=email]::placeholder{
+    font-family: 'Poppins';
+    padding: 20px 0 20px 3px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 125.5%;
+    color: rgba(139, 142, 153, 0.7);
+}
+
+input[type=email]:focus{
+    outline: none;
+}
+
+
+
+
+
+
+
+
+#email-error-msg {
+    display: none;
+    color: red;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .shake {
+    animation: shake 0.5s;
+  }
+  
+  @keyframes shake {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(-10px); }
+    40% { transform: translateX(10px); }
+    60% { transform: translateX(-10px); }
+    80% { transform: translateX(10px); }
+    100% { transform: translateX(0); }
+  }
+
+  @media (max-width: 768px){
+    .contact_subscribe{
+        padding: 50px;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+    }
+    .contact_img{
+        display: none;
+    }
+
+
+
+
+  }
+  
+  

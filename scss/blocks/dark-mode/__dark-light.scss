@@ -1,0 +1,65 @@
+body.dark .brands{
+    background:#121212; 
+    .card {
+        border-radius: 36px;
+        background: linear-gradient(145deg, #101010, #131313);
+        box-shadow:  19px 19px 38px #0b0b0b,
+                     -19px -19px 38px #191919;
+
+      
+      
+      p{
+          color: #fff;
+        }
+    } 
+}
+
+body.dark .product{
+    background:#121212;
+    .img_card{
+        border-radius: 36px;
+        background: #121212;
+        box-shadow:  5px 5px 11px #080808,
+                    -5px -5px 11px #1c1c1c;
+    }
+    .price{
+        color: #fff;
+    }
+    h2{
+        color: var(--skin-color);
+    }
+}
+
+body.dark .btn_w{
+    background: #121212;
+}
+
+body.dark .about{
+    background: #121212;
+    .swiper-slide{
+        border-radius: 36px;
+        background: linear-gradient(145deg, #131313, #101010);
+        box-shadow:  7px 7px 9px #070707,
+                    -7px -7px 9px #1d1d1d;
+    }
+}
+
+
+body.dark .contact{
+    background: #121212;
+    .contact_subscribe{
+        border-radius: 36px;
+        background: linear-gradient(145deg, #131313, #101010);
+        box-shadow:  7px 7px 9px #070707,
+                    -7px -7px 9px #1d1d1d;
+    }
+    input[type=email]{
+        background: #070707;
+        border: 1px solid blue;
+    }
+}
+
+
+body.dark .footer{
+    background: #121212;
+}
